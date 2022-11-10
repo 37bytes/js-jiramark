@@ -1,17 +1,17 @@
 {
-    "name": "jiramark",
+    "name": "@37bytes/js-jiramark",
     "description": "Parser for the JIRA markup language",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "author": "Joyent (joyent.com)",
     "keywords": [
         "jira"
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/joyent/node-jiramark.git"
+        "url": "git@github.com:37bytes/js-jiramark.git"
     },
     "bugs": {
-        "url": "https://github.com/joyent/node-jiramark/issues"
+        "url": "https://github.com/37bytes/js-jiramark/issues"
     },
     "main": "lib/index.js",
     "dependencies": {

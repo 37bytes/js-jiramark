@@ -8,20 +8,21 @@
     Copyright (c) 2019, Joyent, Inc.
 -->
 
-# jiramark
+# [node-jiramark](https://github.com/TritonDataCenter/node-jiramark) fork
+**May work in browser.**
 
 `jiramark` is a library for parsing the
 [JIRA markup language](https://jira.atlassian.com/secure/WikiRendererHelpAction.jspa?section=all).
 This library may fail to parse some markup since it doesn't fall back as
 gracefully with weird input in the same way that JIRA does. If you have any
 examples of sane markup that you think this library could handle, please open
-an [issue](https://github.com/joyent/node-jiramark/issues).
+an [issue](https://github.com/37bytes/js-jiramark/issues).
 
 ## Installation
 
 Install [node.js](http://nodejs.org/), then:
 
-    npm install jiramark
+    npm install 37bytes/js-jiramark
 
 ## API
 
@@ -70,4 +71,4 @@ Copyright (c) 2019, Joyent, Inc.
 
 ## Bugs
 
-See <https://github.com/joyent/node-jiramark/issues>.
+See <https://github.com/37bytes/js-jiramark/issues> + <https://github.com/joyent/node-jiramark/issues>.
